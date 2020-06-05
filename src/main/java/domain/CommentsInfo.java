@@ -1,8 +1,8 @@
 package domain;
 
 public class CommentsInfo {
-    int count;
-    boolean canComment;
+    private int count;
+    private boolean canComment;
 
     public int getCount() {
         return count;

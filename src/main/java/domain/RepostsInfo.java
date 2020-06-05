@@ -1,7 +1,8 @@
 package domain;
 
 public class RepostsInfo {
-    int count;
+    private int count;
+    private boolean userReposted;
 
     public int getCount() {
         return count;
@@ -19,5 +20,5 @@ public class RepostsInfo {
         this.userReposted = userReposted;
     }
 
-    boolean userReposted;
+
 }

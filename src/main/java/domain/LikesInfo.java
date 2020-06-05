@@ -1,7 +1,8 @@
 package domain;
 
 public class LikesInfo {
-    int count;
+    private int count;
+    private boolean userLiked;
 
     public int getCount() {
         return count;
@@ -19,6 +20,6 @@ public class LikesInfo {
         this.userLiked = userLiked;
     }
 
-    boolean userLiked;
+
 
 }
